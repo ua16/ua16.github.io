@@ -1,0 +1,44 @@
+.center-box {
+    display: grid;
+    place-items: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #080808;
+}
+
+#name-box {
+    display: grid;
+    place-items: center;
+    font-family: 'Poiret One', cursive;
+    background: repeat center/100% url('../img/index_bg.svg');
+    font-size: calc(20px + 7vw);
+    color: #FFFFFF;
+    width: 100vw;
+    height: 70vh;
+}
+
+#link-list {
+    font-family: 'Poiret One', cursive;
+    font-size: calc(12px + 3vw);
+    font-weight: 600;
+    text-align: center;
+    list-style-type: none;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:focus,
+a:hover {
+    font-weight: 900;
+    color: #425791;
+}
