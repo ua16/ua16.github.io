@@ -14,7 +14,7 @@ body {
     place-items: center;
     font-family: 'Poiret One', cursive;
     background: repeat center/100% url('../img/index_bg.svg');
-    font-size: calc(20px + 7vw);
+    font-size: calc(1px + 6vw);
     color: #FFFFFF;
     width: 100vw;
     height: 70vh;
